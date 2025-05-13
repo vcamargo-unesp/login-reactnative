@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { View, Text, Button } from 'react-native';
-import { getUser, logout } from '../utils/auth';
 import { AuthContext } from '../context/AuthContext';
 
 export default function ProfileScreen({ navigation }) {
